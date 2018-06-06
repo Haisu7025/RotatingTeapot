@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+windows.h
+-
+OpenGL/OpenGLAvailability.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
+/Users/yhs/Desktop/大三春季/计算机图形学/大作业/teapot/bzlteapot.cpp
+ctrlpoints.h
+/Users/yhs/Desktop/大三春季/计算机图形学/大作业/teapot/ctrlpoints.h
+
+/Users/yhs/Desktop/大三春季/计算机图形学/大作业/teapot/ctrlpoints.h
+glut.h
+-
+stdlib.h
+-
+iostream
+/Users/yhs/Desktop/大三春季/计算机图形学/大作业/teapot/iostream
+
